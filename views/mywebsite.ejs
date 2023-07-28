@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Website</title>
+  
+  <!-- Bootstrap 5 CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+  
+  <style>
+    body {
+      background-color: #A6977B;
+      color: #090A26;
+      font-family: Arial, sans-serif;
+    }
+    
+    nav {
+      background-color: #161A73;
+    }
+    
+    .nav-link {
+      color: #A6977B;
+    }
+    
+    .container {
+      margin-top: 50px;
+    }
+    
+    h1 {
+      color: #3752A6;
+    }
+    
+    p {
+      margin-bottom: 20px;
+    }
+    
+    footer {
+      background-color: #161A73;
+      color: #A6977B;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    footer p {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">Logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#course">Course</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="home" class="container">
+    <h1>Home</h1>
+    <p>Welcome to our website!</p>
+  </div>
+  
+  <div id="service" class="container">
+    <h1>Service</h1>
+    <p>We offer various services to meet your needs.</p>
+  </div>
+  
+  <div id="course" class="container">
+    <h1>Course</h1>
+    <p>Check out our available courses.</p>
+  </div>
+  
+  <div id="contact" class="container">
+    <h1>Contact</h1>
+    <p>Please feel free to get in touch with us.</p>
+  </div>
+  
+  <footer>
+    <p>&copy; 2022 Your Company. All rights reserved.</p>
+  </footer>
+  
+  <!-- Bootstrap 5 JS (Optional) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
